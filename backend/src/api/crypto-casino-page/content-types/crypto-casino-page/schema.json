@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "crypto_casino_pages",
+  "info": {
+    "singularName": "crypto-casino-page",
+    "pluralName": "crypto-casino-pages",
+    "displayName": "CryptoCasinoPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "descriptionTitle": {
+      "type": "text",
+      "required": true
+    },
+    "descriptionBody": {
+      "type": "richtext"
+    },
+    "crypto_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::crypto-category.crypto-category"
+    }
+  }
+}

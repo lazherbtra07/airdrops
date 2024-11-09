@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.mult-link"
+    },
+    "Home": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.sem-link"
+    },
+    "Airdrops": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.sem-link"
+    },
+    "Blogs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.sem-link"
+    },
+    "Cointracker": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.sem-link"
+    }
+  }
+}

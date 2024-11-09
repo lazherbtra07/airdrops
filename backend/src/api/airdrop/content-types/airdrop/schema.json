@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "airdrops",
+  "info": {
+    "singularName": "airdrop",
+    "pluralName": "airdrops",
+    "displayName": "airdrop",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "situation": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::situation.situation"
+    },
+    "airdrop_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::airdrop-type.airdrop-type"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "element": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.amont-and-approx"
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "image_detail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "value": {
+      "type": "component",
+      "repeatable": true,
+      "max": 5,
+      "component": "elements.card-value"
+    },
+    "guide_air_desc": {
+      "type": "blocks"
+    },
+    "socialLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.mult-link",
+      "max": 8
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_links_sem_links",
+  "info": {
+    "displayName": "NameLink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

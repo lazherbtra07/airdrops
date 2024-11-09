@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cryptos",
+  "info": {
+    "singularName": "crypto",
+    "pluralName": "cryptos",
+    "displayName": "crypto"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "airdrop_articles_and_guides",
+  "info": {
+    "singularName": "airdrop-articles-and-guide",
+    "pluralName": "airdrop-articles-and-guides",
+    "displayName": "Airdrop Articles & Guide"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "cover_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "publication_Date": {
+      "type": "date",
+      "required": false
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

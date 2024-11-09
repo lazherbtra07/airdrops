@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_faq_faq_s",
+  "info": {
+    "displayName": "Faq-"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string",
+      "required": true
+    },
+    "Answerr": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

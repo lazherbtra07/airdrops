@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_amont_and_approxes",
+  "info": {
+    "displayName": "amont&approx"
+  },
+  "options": {},
+  "attributes": {
+    "amont_1": {
+      "type": "string"
+    },
+    "amont_2": {
+      "type": "string"
+    },
+    "approx_1": {
+      "type": "string"
+    },
+    "approx_2": {
+      "type": "string"
+    }
+  }
+}

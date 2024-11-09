@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_card_values",
+  "info": {
+    "displayName": "card value"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

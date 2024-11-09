@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "situations",
+  "info": {
+    "singularName": "situation",
+    "pluralName": "situations",
+    "displayName": "situation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CurrentStatus": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

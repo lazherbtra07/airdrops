@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "crypto_resources",
+  "info": {
+    "singularName": "crypto-resource",
+    "pluralName": "crypto-resources",
+    "displayName": "Crypto_Resource",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
